@@ -10,8 +10,8 @@
     "icon": null,
     "label": null,
     "sort": 4,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -25,8 +25,8 @@
     "icon": "person_pin",
     "label": "Learn more about the best team around.",
     "sort": 2,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -40,8 +40,8 @@
     "icon": "support",
     "label": "Learn how to use AgencyOS with tips and tricks",
     "sort": 3,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -55,8 +55,8 @@
     "icon": null,
     "label": null,
     "sort": null,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -70,8 +70,8 @@
     "icon": null,
     "label": null,
     "sort": 3,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -85,8 +85,8 @@
     "icon": null,
     "label": null,
     "sort": 1,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -100,8 +100,8 @@
     "icon": null,
     "label": null,
     "sort": 3,
-    "open_in_new_tab": false,
     "has_children": true,
+    "open_in_new_tab": false,
     "children": [
       "4ab77cef-ccef-478e-b363-10932f5345aa",
       "558bc8bf-435c-4330-877a-182e496b49be"
@@ -118,8 +118,8 @@
     "icon": null,
     "label": null,
     "sort": 5,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -133,8 +133,8 @@
     "icon": null,
     "label": "Our privacy policy and terms of service.",
     "sort": 1,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -148,8 +148,8 @@
     "icon": null,
     "label": null,
     "sort": 2,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -163,8 +163,8 @@
     "icon": null,
     "label": null,
     "sort": 2,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   },
   {
@@ -178,8 +178,8 @@
     "icon": null,
     "label": null,
     "sort": 4,
-    "open_in_new_tab": false,
     "has_children": false,
+    "open_in_new_tab": false,
     "children": []
   }
 ]

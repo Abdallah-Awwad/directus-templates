@@ -1,45 +1,45 @@
 [
   {
-    "id": "2d490b3f-7528-4b85-a05f-44aac2f2e05d",
-    "name": "Administrator",
+    "id": "641413bc-1879-48c6-b908-3112397d89f2",
     "icon": "verified",
-    "description": "Administrative role with unrestricted App/API access.",
+    "name": "Administrator",
     "ip_access": null,
-    "app_access": true,
+    "description": "$t:admin_description",
     "admin_access": true,
+    "app_access": true,
     "enforce_tfa": false,
     "users": null
   },
   {
     "id": "8ba4ed6f-d330-4675-ae46-119c533a0928",
-    "name": "Team Member",
     "icon": "supervised_user_circle",
-    "description": "Role for internal team members and employees",
+    "name": "Team Member",
     "ip_access": null,
-    "app_access": true,
+    "description": "Role for internal team members and employees",
     "admin_access": false,
+    "app_access": true,
     "enforce_tfa": false,
     "users": null
   },
   {
     "id": "9ecc2969-8b38-4088-9dc1-78334a206445",
-    "name": "Website API",
     "icon": "android",
-    "description": "Role for using static tokens for server to server communication. Do not use on client side.",
+    "name": "Website API",
     "ip_access": null,
-    "app_access": false,
+    "description": "Role for using static tokens for server to server communication. Do not use on client side.",
     "admin_access": false,
+    "app_access": false,
     "enforce_tfa": false,
     "users": null
   },
   {
     "id": "edc2e863-e2c4-4ee3-bcbd-d090df2911e1",
-    "name": "Client",
     "icon": "person_pin",
-    "description": "Role for clients accessing their projects via the frontend.",
+    "name": "Client",
     "ip_access": null,
-    "app_access": false,
+    "description": "Role for clients accessing their projects via the frontend.",
     "admin_access": false,
+    "app_access": false,
     "enforce_tfa": false,
     "users": null
   }

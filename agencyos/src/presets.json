@@ -2,21 +2,12 @@
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "pages",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "title": 179.501708984375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "pages",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -31,29 +22,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "title": 179.501708984375
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "testimonials",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "image": 51.5,
-          "title": 106.58203125,
-          "company": 125.6171875,
-          "subtitle": 117.40625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "testimonials",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -66,29 +54,29 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "image": 51.5,
+          "title": 106.58203125,
+          "company": 125.6171875,
+          "subtitle": 117.40625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "1. Workflow",
-    "collection": "posts",
-    "search": null,
-    "layout": "kanban",
-    "icon": "view_kanban",
     "color": "#18222F",
-    "filter": null,
-    "layout_options": {
-      "kanban": {
-        "titleField": "title",
-        "showUngrouped": false,
-        "dateField": "date_published",
-        "textField": "summary",
-        "crop": true,
-        "groupField": "status",
-        "groupTitle": null
-      }
-    },
+    "icon": "view_kanban",
+    "layout": "kanban",
+    "search": null,
+    "collection": "posts",
+    "bookmark": "1. Workflow",
     "layout_query": {
       "tabular": {
         "fields": [
@@ -103,18 +91,43 @@
         "page": 1
       }
     },
+    "layout_options": {
+      "kanban": {
+        "titleField": "title",
+        "showUngrouped": false,
+        "dateField": "date_published",
+        "textField": "summary",
+        "crop": true,
+        "groupField": "status",
+        "groupTitle": null
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "2. Calendar",
-    "collection": "posts",
-    "search": null,
-    "layout": "calendar",
-    "icon": "calendar_today",
     "color": "#18222F",
-    "filter": null,
+    "icon": "calendar_today",
+    "layout": "calendar",
+    "search": null,
+    "collection": "posts",
+    "bookmark": "2. Calendar",
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "image",
+          "title",
+          "date_published"
+        ],
+        "sort": [
+          "-date_published"
+        ],
+        "page": 1
+      }
+    },
     "layout_options": {
       "kanban": {
         "titleField": "title",
@@ -140,32 +153,35 @@
         "template": "{{title}}"
       }
     },
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": "#18222F",
+    "icon": "list",
+    "layout": "tabular",
+    "search": null,
+    "collection": "posts",
+    "bookmark": "3. All Posts",
     "layout_query": {
       "tabular": {
         "fields": [
           "status",
           "image",
           "title",
-          "date_published"
+          "category",
+          "date_published",
+          "author"
         ],
         "sort": [
           "-date_published"
         ],
-        "page": 1
+        "page": 1,
+        "limit": 25
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": "3. All Posts",
-    "collection": "posts",
-    "search": null,
-    "layout": "tabular",
-    "icon": "list",
-    "color": "#18222F",
-    "filter": null,
     "layout_options": {
       "kanban": {
         "titleField": "title",
@@ -193,42 +209,18 @@
         "template": "{{title}}"
       }
     },
-    "layout_query": {
-      "tabular": {
-        "fields": [
-          "status",
-          "image",
-          "title",
-          "category",
-          "date_published",
-          "author"
-        ],
-        "sort": [
-          "-date_published"
-        ],
-        "page": 1,
-        "limit": 25
-      }
-    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "forms",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "forms",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -240,26 +232,25 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "inbox",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "data": 284.96807861328125
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "inbox",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -274,26 +265,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "data": 284.96807861328125
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "navigation",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 37.29296875,
-          "id": 115.59375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "navigation",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -305,26 +296,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 37.29296875,
+          "id": 115.59375
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "navigation_items",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "navigation": 131.640625,
-          "has_children": 107.65625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "navigation_items",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -338,23 +329,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "navigation": 131.640625,
+          "has_children": 107.65625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "seo",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {}
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "seo",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -366,25 +360,23 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {}
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "redirects",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "response_code": 156.15625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "redirects",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -395,17 +387,44 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "response_code": 156.15625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "1. My Activities",
-    "collection": "os_activities",
-    "search": null,
-    "layout": null,
-    "icon": "event_list",
     "color": "#D064AC",
+    "icon": "event_list",
+    "layout": null,
+    "search": null,
+    "collection": "os_activities",
+    "bookmark": "1. My Activities",
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "fields": [
+          "status",
+          "activity_type",
+          "deal",
+          "name"
+        ],
+        "page": 1
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 45.8515625
+        }
+      }
+    },
     "filter": {
       "_and": [
         {
@@ -424,44 +443,24 @@
         }
       ]
     },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 45.8515625
-        }
-      }
-    },
-    "layout_query": {
-      "tabular": {
-        "limit": 25,
-        "fields": [
-          "status",
-          "activity_type",
-          "deal",
-          "name"
-        ],
-        "page": 1
-      }
-    },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "1. My Deals",
-    "collection": "os_deals",
-    "search": null,
-    "layout": "kanban",
-    "icon": "person_search",
     "color": "#D064AC",
-    "filter": {
-      "_and": [
-        {
-          "owner": {
-            "_eq": "$CURRENT_USER"
-          }
-        }
-      ]
+    "icon": "person_search",
+    "layout": "kanban",
+    "search": null,
+    "collection": "os_deals",
+    "bookmark": "1. My Deals",
+    "layout_query": {
+      "tabular": {
+        "limit": 25
+      },
+      "kanban": {
+        "page": 1
+      }
     },
     "layout_options": {
       "kanban": {
@@ -474,25 +473,51 @@
         "textField": null
       }
     },
-    "layout_query": {
-      "tabular": {
-        "limit": 25
-      },
-      "kanban": {
-        "page": 1
-      }
+    "filter": {
+      "_and": [
+        {
+          "owner": {
+            "_eq": "$CURRENT_USER"
+          }
+        }
+      ]
     },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "1. My Tasks",
-    "collection": "os_tasks",
-    "search": null,
-    "layout": "tabular",
-    "icon": "playlist_add_check_circle",
     "color": "#D064AC",
+    "icon": "playlist_add_check_circle",
+    "layout": "tabular",
+    "search": null,
+    "collection": "os_tasks",
+    "bookmark": "1. My Tasks",
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "page": 1,
+        "fields": [
+          "status",
+          "name",
+          "due_date",
+          "type",
+          "assigned_to"
+        ],
+        "sort": [
+          "due_date"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 45.0062255859375,
+          "name": 265.52813720703125,
+          "type": 149.378173828125
+        }
+      }
+    },
     "filter": {
       "_and": [
         {
@@ -511,63 +536,17 @@
         }
       ]
     },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 45.0062255859375,
-          "name": 265.52813720703125,
-          "type": 149.378173828125
-        }
-      }
-    },
-    "layout_query": {
-      "tabular": {
-        "limit": 25,
-        "page": 1,
-        "fields": [
-          "status",
-          "name",
-          "due_date",
-          "type",
-          "assigned_to"
-        ],
-        "sort": [
-          "due_date"
-        ]
-      }
-    },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "1. My Projects",
-    "collection": "os_projects",
-    "search": null,
-    "layout": "tabular",
-    "icon": "mindfulness",
     "color": "#D064AC",
-    "filter": {
-      "_and": [
-        {
-          "_and": [
-            {
-              "owner": {
-                "_eq": "$CURRENT_USER"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 97.0703125,
-          "name": 257.5887451171875
-        }
-      }
-    },
+    "icon": "mindfulness",
+    "layout": "tabular",
+    "search": null,
+    "collection": "os_projects",
+    "bookmark": "1. My Projects",
     "layout_query": {
       "tabular": {
         "limit": 25,
@@ -583,26 +562,38 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 97.0703125,
+          "name": 257.5887451171875
+        }
+      }
+    },
+    "filter": {
+      "_and": [
+        {
+          "_and": [
+            {
+              "owner": {
+                "_eq": "$CURRENT_USER"
+              }
+            }
+          ]
+        }
+      ]
+    },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "team",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "image": 61.731781005859375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "team",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -614,25 +605,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "image": 61.731781005859375
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "categories",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "color": 39.171875
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "categories",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -643,27 +635,25 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "color": 39.171875
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "posts",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 100.4296875,
-          "image": 55.890625,
-          "title": 375.66015625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "posts",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -675,29 +665,27 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 100.4296875,
+          "image": 55.890625,
+          "title": 375.66015625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "testimonials",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "image": 51.5,
-          "title": 106.58203125,
-          "company": 125.6171875,
-          "subtitle": 117.40625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "testimonials",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -710,26 +698,29 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "image": 51.5,
+          "title": 106.58203125,
+          "company": 125.6171875,
+          "subtitle": 117.40625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "team",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "image": 61.731781005859375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "team",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -741,29 +732,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "image": 61.731781005859375
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "testimonials",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "image": 51.5,
-          "title": 106.58203125,
-          "company": 125.6171875,
-          "subtitle": 117.40625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "testimonials",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -776,41 +764,43 @@
         ]
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "block_faqs",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
-    "color": null,
-    "filter": null,
-    "layout_options": null,
-    "layout_query": null,
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "posts",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
-    "color": null,
-    "filter": null,
     "layout_options": {
       "tabular": {
         "widths": {
-          "status": 100.4296875,
-          "image": 55.890625,
-          "title": 375.66015625
+          "status": 32,
+          "image": 51.5,
+          "title": 106.58203125,
+          "company": 125.6171875,
+          "subtitle": 117.40625
         }
       }
     },
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "block_faqs",
+    "bookmark": null,
+    "layout_query": null,
+    "layout_options": null,
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "posts",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -822,26 +812,27 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 100.4296875,
+          "image": 55.890625,
+          "title": 375.66015625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "pages",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "title": 179.501708984375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "pages",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -856,26 +847,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "title": 179.501708984375
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "team",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "image": 61.731781005859375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "team",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -887,26 +878,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "image": 61.731781005859375
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "navigation_items",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "navigation": 131.640625,
-          "has_children": 107.65625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "navigation_items",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -923,44 +914,44 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "navigation": 131.640625,
+          "has_children": 107.65625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "block_hero",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "block_hero",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1
       }
     },
+    "layout_options": null,
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "navigation",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 37.29296875,
-          "id": 115.59375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "navigation",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -972,44 +963,44 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 37.29296875,
+          "id": 115.59375
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "directus_presets",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "directus_presets",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1
       }
     },
+    "layout_options": null,
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "inbox",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "data": 284.96807861328125
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "inbox",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1024,25 +1015,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "data": 284.96807861328125
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "forms",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "forms",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1054,18 +1046,33 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "directus_files",
-    "search": null,
-    "layout": "cards",
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
+    "icon": "bookmark_border",
+    "layout": "cards",
+    "search": null,
+    "collection": "directus_files",
+    "bookmark": null,
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "-uploaded_on"
+        ],
+        "page": 1
+      }
+    },
     "layout_options": {
       "cards": {
         "icon": "insert_drive_file",
@@ -1075,48 +1082,32 @@
         "imageFit": "crop"
       }
     },
-    "layout_query": {
-      "cards": {
-        "sort": [
-          "-uploaded_on"
-        ],
-        "page": 1
-      }
-    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
     "collection": "block_form",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
-    "color": null,
-    "filter": null,
-    "layout_options": null,
+    "bookmark": null,
     "layout_query": null,
+    "layout_options": null,
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "block_richtext",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "content": 328.578125,
-          "headline": 357.390625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "block_richtext",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1127,35 +1118,26 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "content": 328.578125,
+          "headline": 357.390625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "pages",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": {
-      "_and": [
-        {
-          "status": {
-            "_eq": "published"
-          }
-        }
-      ]
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "title": 179.501708984375,
-          "date_created": 214.70703125
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "pages",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1171,18 +1153,43 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "title": 179.501708984375,
+          "date_created": 214.70703125
+        }
+      }
+    },
+    "filter": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "directus_files",
-    "search": null,
-    "layout": "cards",
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
+    "icon": "bookmark_border",
+    "layout": "cards",
+    "search": null,
+    "collection": "directus_files",
+    "bookmark": null,
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "-uploaded_on"
+        ],
+        "page": 1
+      }
+    },
     "layout_options": {
       "cards": {
         "icon": "insert_drive_file",
@@ -1192,36 +1199,18 @@
         "imageFit": "crop"
       }
     },
-    "layout_query": {
-      "cards": {
-        "sort": [
-          "-uploaded_on"
-        ],
-        "page": 1
-      }
-    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "posts",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 100.4296875,
-          "image": 55.890625,
-          "title": 375.66015625,
-          "seo": 337.87109375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "posts",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1234,45 +1223,46 @@
         ]
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "block_hero",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
-    "color": null,
-    "filter": null,
-    "layout_options": null,
-    "layout_query": {
-      "tabular": {
-        "page": 1
-      }
-    },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "posts",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
-    "color": null,
-    "filter": null,
     "layout_options": {
       "tabular": {
         "widths": {
           "status": 100.4296875,
           "image": 55.890625,
-          "title": 375.66015625
+          "title": 375.66015625,
+          "seo": 337.87109375
         }
       }
     },
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "block_hero",
+    "bookmark": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1
+      }
+    },
+    "layout_options": null,
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "posts",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1284,53 +1274,45 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 100.4296875,
+          "image": 55.890625,
+          "title": 375.66015625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "block_testimonials",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
     "color": null,
-    "filter": null,
-    "layout_options": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "block_testimonials",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1
       }
     },
+    "layout_options": null,
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "pages",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": {
-      "_and": [
-        {
-          "status": {
-            "_eq": "published"
-          }
-        }
-      ]
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "title": 179.501708984375,
-          "date_created": 214.70703125
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "pages",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1347,26 +1329,35 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "title": 179.501708984375,
+          "date_created": 214.70703125
+        }
+      }
+    },
+    "filter": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "inbox",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "data": 284.96807861328125
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "inbox",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1382,27 +1373,26 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "data": 284.96807861328125
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "directus_files",
-    "search": null,
-    "layout": "cards",
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "cards": {
-        "icon": "insert_drive_file",
-        "title": "{{ title }}",
-        "subtitle": "{{ type }} • {{ filesize }}",
-        "size": 4,
-        "imageFit": "crop"
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": "cards",
+    "search": null,
+    "collection": "directus_files",
+    "bookmark": null,
     "layout_query": {
       "cards": {
         "sort": [
@@ -1412,44 +1402,46 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "cards": {
+        "icon": "insert_drive_file",
+        "title": "{{ title }}",
+        "subtitle": "{{ type }} • {{ filesize }}",
+        "size": 4,
+        "imageFit": "crop"
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "messages",
-    "search": null,
-    "layout": null,
+    "color": null,
     "icon": "bookmark",
-    "color": null,
-    "filter": null,
+    "layout": null,
+    "search": null,
+    "collection": "messages",
+    "bookmark": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 25
+      }
+    },
     "layout_options": null,
-    "layout_query": {
-      "tabular": {
-        "page": 1,
-        "limit": 25
-      }
-    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "categories",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "color": 39.171875
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "categories",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1461,18 +1453,6 @@
         "limit": 25
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "categories",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
-    "color": null,
-    "filter": null,
     "layout_options": {
       "tabular": {
         "widths": {
@@ -1480,6 +1460,18 @@
         }
       }
     },
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "categories",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1491,25 +1483,25 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "color": 39.171875
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
     "collection": "forms",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
-    "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32
-        }
-      }
-    },
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1522,25 +1514,25 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "redirects",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "response_code": 156.15625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "redirects",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1552,18 +1544,40 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "response_code": 156.15625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "posts",
-    "search": null,
-    "layout": "tabular",
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
+    "icon": "bookmark_border",
+    "layout": "tabular",
+    "search": null,
+    "collection": "posts",
+    "bookmark": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "status",
+          "image",
+          "title",
+          "date_published"
+        ],
+        "limit": 25
+      },
+      "cards": {
+        "limit": 25
+      }
+    },
     "layout_options": {
       "tabular": {
         "widths": {
@@ -1577,6 +1591,18 @@
         "subtitle": "{{sort}}"
       }
     },
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "posts",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1587,23 +1613,8 @@
           "date_published"
         ],
         "limit": 25
-      },
-      "cards": {
-        "limit": 25
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "posts",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
-    "color": null,
-    "filter": null,
     "layout_options": {
       "tabular": {
         "widths": {
@@ -1613,37 +1624,18 @@
         }
       }
     },
-    "layout_query": {
-      "tabular": {
-        "page": 1,
-        "fields": [
-          "status",
-          "image",
-          "title",
-          "date_published"
-        ],
-        "limit": 25
-      }
-    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "conversations",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32
-        }
-      }
-    },
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "conversations",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1655,44 +1647,43 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "block_form",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "block_form",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "limit": 25
       }
     },
+    "layout_options": null,
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "navigation",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 37.29296875,
-          "id": 115.59375
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "navigation",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1705,26 +1696,26 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 37.29296875,
+          "id": 115.59375
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "navigation_items",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "navigation": 131.640625,
-          "has_children": 107.65625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "navigation_items",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1742,23 +1733,26 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "navigation": 131.640625,
+          "has_children": 107.65625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "seo",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {}
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "seo",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1771,25 +1765,23 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {}
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "conversations",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32
-        }
-      }
-    },
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "conversations",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1801,37 +1793,6 @@
         ]
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "help_articles",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
-    "color": null,
-    "filter": null,
-    "layout_options": null,
-    "layout_query": {
-      "tabular": {
-        "limit": 25,
-        "page": 1
-      }
-    },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "help_articles",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
-    "color": null,
-    "filter": null,
     "layout_options": {
       "tabular": {
         "widths": {
@@ -1839,6 +1800,37 @@
         }
       }
     },
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "help_articles",
+    "bookmark": null,
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "page": 1
+      }
+    },
+    "layout_options": null,
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "help_articles",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "limit": 25,
@@ -1853,45 +1845,44 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "block_hero",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
     "color": null,
-    "filter": null,
-    "layout_options": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "block_hero",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
         "limit": 25
       }
     },
+    "layout_options": null,
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "inbox",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "data": 284.96807861328125
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "inbox",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1907,25 +1898,26 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "data": 284.96807861328125
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "help_collections",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "icon": 49.12109375
-        }
-      }
-    },
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "help_collections",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -1937,65 +1929,63 @@
         ]
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "messages",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
-    "color": null,
-    "filter": null,
-    "layout_options": null,
-    "layout_query": {
-      "tabular": {
-        "page": 1,
-        "limit": 25
-      }
-    },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "help_feedback",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
-    "color": null,
-    "filter": null,
-    "layout_options": null,
-    "layout_query": {
-      "tabular": {
-        "page": 1,
-        "limit": 25
-      }
-    },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "team",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
-    "color": null,
-    "filter": null,
     "layout_options": {
       "tabular": {
         "widths": {
-          "status": 32,
-          "image": 61.731781005859375,
-          "job_title": 265.55078125
+          "icon": 49.12109375
         }
       }
     },
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "messages",
+    "bookmark": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 25
+      }
+    },
+    "layout_options": null,
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "help_feedback",
+    "bookmark": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "limit": 25
+      }
+    },
+    "layout_options": null,
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "team",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -2008,29 +1998,27 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "image": 61.731781005859375,
+          "job_title": 265.55078125
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "testimonials",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "image": 51.5,
-          "title": 161.125,
-          "company": 125.6171875,
-          "subtitle": 117.40625
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "testimonials",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -2044,35 +2032,29 @@
         "limit": 25
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "image": 51.5,
+          "title": 161.125,
+          "company": 125.6171875,
+          "subtitle": 117.40625
+        }
+      }
+    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "pages",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": {
-      "_and": [
-        {
-          "status": {
-            "_eq": "published"
-          }
-        }
-      ]
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "title": 179.501708984375,
-          "date_created": 214.70703125
-        }
-      }
-    },
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "pages",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -2089,93 +2071,90 @@
         "limit": 25
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": null,
-    "collection": "block_video",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
-    "color": null,
-    "filter": null,
-    "layout_options": null,
-    "layout_query": {
+    "layout_options": {
       "tabular": {
-        "limit": 25
+        "widths": {
+          "status": 32,
+          "title": 179.501708984375,
+          "date_created": 214.70703125
+        }
       }
+    },
+    "filter": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
     },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "directus_presets",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark_border",
     "color": null,
-    "filter": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "block_video",
+    "bookmark": null,
+    "layout_query": {
+      "tabular": {
+        "limit": 25
+      }
+    },
     "layout_options": null,
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": null,
+    "icon": "bookmark_border",
+    "layout": null,
+    "search": null,
+    "collection": "directus_presets",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1,
         "limit": 25
       }
     },
+    "layout_options": null,
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": null,
-    "collection": "block_testimonials",
-    "search": null,
-    "layout": null,
-    "icon": "bookmark",
     "color": null,
-    "filter": null,
-    "layout_options": null,
+    "icon": "bookmark",
+    "layout": null,
+    "search": null,
+    "collection": "block_testimonials",
+    "bookmark": null,
     "layout_query": {
       "tabular": {
         "page": 1
       }
     },
+    "layout_options": null,
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "1. Open Invoices",
-    "collection": "os_invoices",
-    "search": null,
-    "layout": null,
-    "icon": "warning",
     "color": "#D064AC",
-    "filter": {
-      "_and": [
-        {
-          "amount_due": {
-            "_gt": "0"
-          }
-        }
-      ]
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "invoice_number": 66.73175048828125,
-          "status": 87.59112548828125,
-          "organization": 156.05029296875,
-          "due_date": 179.90625,
-          "amount_due": 139.6353759765625,
-          "project": 311.9964599609375
-        }
-      }
-    },
+    "icon": "warning",
+    "layout": null,
+    "search": null,
+    "collection": "os_invoices",
+    "bookmark": "1. Open Invoices",
     "layout_query": {
       "tabular": {
         "page": 1,
@@ -2192,18 +2171,55 @@
         ]
       }
     },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "invoice_number": 66.73175048828125,
+          "status": 87.59112548828125,
+          "organization": 156.05029296875,
+          "due_date": 179.90625,
+          "amount_due": 139.6353759765625,
+          "project": 311.9964599609375
+        }
+      }
+    },
+    "filter": {
+      "_and": [
+        {
+          "amount_due": {
+            "_gt": "0"
+          }
+        }
+      ]
+    },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "2. Kanban",
-    "collection": "os_tasks",
-    "search": null,
-    "layout": "kanban",
-    "icon": "view_kanban",
     "color": "#D064AC",
-    "filter": null,
+    "icon": "view_kanban",
+    "layout": "kanban",
+    "search": null,
+    "collection": "os_tasks",
+    "bookmark": "2. Kanban",
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "page": 1,
+        "fields": [
+          "status",
+          "name",
+          "due_date",
+          "assigned_to",
+          "type",
+          "project.name"
+        ]
+      },
+      "kanban": {
+        "page": 1
+      }
+    },
     "layout_options": {
       "tabular": {
         "widths": {
@@ -2231,6 +2247,18 @@
         "showUngrouped": false
       }
     },
+    "filter": null,
+    "refresh_interval": null
+  },
+  {
+    "user": null,
+    "role": null,
+    "color": "#D064AC",
+    "icon": "calendar_month",
+    "layout": "calendar",
+    "search": null,
+    "collection": "os_tasks",
+    "bookmark": "3. Calendar",
     "layout_query": {
       "tabular": {
         "limit": 25,
@@ -2248,18 +2276,6 @@
         "page": 1
       }
     },
-    "refresh_interval": null
-  },
-  {
-    "user": null,
-    "role": null,
-    "bookmark": "3. Calendar",
-    "collection": "os_tasks",
-    "search": null,
-    "layout": "calendar",
-    "icon": "calendar_month",
-    "color": "#D064AC",
-    "filter": null,
     "layout_options": {
       "tabular": {
         "widths": {
@@ -2287,42 +2303,35 @@
         "showUngrouped": false
       }
     },
-    "layout_query": {
-      "tabular": {
-        "limit": 25,
-        "page": 1,
-        "fields": [
-          "status",
-          "name",
-          "due_date",
-          "assigned_to",
-          "type",
-          "project.name"
-        ]
-      },
-      "kanban": {
-        "page": 1
-      }
-    },
+    "filter": null,
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "1. My Organizations",
-    "collection": "organizations",
-    "search": null,
-    "layout": "tabular",
-    "icon": "business_center",
     "color": "#6644FF",
-    "filter": {
-      "_and": [
-        {
-          "owner": {
-            "_eq": "$CURRENT_USER"
-          }
-        }
-      ]
+    "icon": "business_center",
+    "layout": "tabular",
+    "search": null,
+    "collection": "organizations",
+    "bookmark": "1. My Organizations",
+    "layout_query": {
+      "tabular": {
+        "limit": 25,
+        "page": 1,
+        "fields": [
+          "logo.$thumbnail",
+          "name",
+          "addresses",
+          "contacts",
+          "owner",
+          "website",
+          "organization_notes"
+        ]
+      },
+      "map": {
+        "limit": 1000
+      }
     },
     "layout_options": {
       "map": {
@@ -2353,56 +2362,26 @@
         }
       }
     },
-    "layout_query": {
-      "tabular": {
-        "limit": 25,
-        "page": 1,
-        "fields": [
-          "logo.$thumbnail",
-          "name",
-          "addresses",
-          "contacts",
-          "owner",
-          "website",
-          "organization_notes"
-        ]
-      },
-      "map": {
-        "limit": 1000
-      }
+    "filter": {
+      "_and": [
+        {
+          "owner": {
+            "_eq": "$CURRENT_USER"
+          }
+        }
+      ]
     },
     "refresh_interval": null
   },
   {
     "user": null,
     "role": null,
-    "bookmark": "1. My Contacts",
-    "collection": "contacts",
-    "search": null,
-    "layout": "tabular",
-    "icon": "perm_contact_calendar",
     "color": "#6644FF",
-    "filter": {
-      "_and": [
-        {
-          "organizations": {
-            "organizations_id": {
-              "owner": {
-                "_eq": "$CURRENT_USER"
-              }
-            }
-          }
-        }
-      ]
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "first_name": 125.3125,
-          "email": 252.24786376953125
-        }
-      }
-    },
+    "icon": "perm_contact_calendar",
+    "layout": "tabular",
+    "search": null,
+    "collection": "contacts",
+    "bookmark": "1. My Contacts",
     "layout_query": {
       "tabular": {
         "limit": 25,
@@ -2415,6 +2394,27 @@
           "organizations"
         ]
       }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "first_name": 125.3125,
+          "email": 252.24786376953125
+        }
+      }
+    },
+    "filter": {
+      "_and": [
+        {
+          "organizations": {
+            "organizations_id": {
+              "owner": {
+                "_eq": "$CURRENT_USER"
+              }
+            }
+          }
+        }
+      ]
     },
     "refresh_interval": null
   }

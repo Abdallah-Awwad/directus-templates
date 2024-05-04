@@ -6,6 +6,6 @@
     "src"
   ],
   "name": "directus-template-agencyos",
-  "templateName": "AgencyOS",
-  "version": "3.2.0"
+  "templateName": "agencyos",
+  "version": "1.0.0"
 }

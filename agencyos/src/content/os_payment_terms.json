@@ -1,17 +1,17 @@
 [
   {
+    "user_updated": "64b6f7fa-e779-4576-baaf-746d6599805a",
+    "user_created": "64b6f7fa-e779-4576-baaf-746d6599805a",
     "id": "0bac9f5f-7b7a-420d-a046-f81e4bb61547",
-    "user_updated": null,
-    "user_created": "95e535d2-f45b-4d94-891b-a89ee6ed1475",
-    "date_updated": null,
+    "date_updated": "2024-05-04T17:29:00.774Z",
     "date_created": "2023-10-10T22:59:25.688Z",
     "name": "Net 10"
   },
   {
+    "user_updated": "64b6f7fa-e779-4576-baaf-746d6599805a",
+    "user_created": "64b6f7fa-e779-4576-baaf-746d6599805a",
     "id": "e11ee7ed-7802-461c-aedc-b2dfecbab9d7",
-    "user_updated": null,
-    "user_created": "95e535d2-f45b-4d94-891b-a89ee6ed1475",
-    "date_updated": null,
+    "date_updated": "2024-05-04T17:29:00.884Z",
     "date_created": "2023-10-10T22:59:22.680Z",
     "name": "Net 30"
   }
